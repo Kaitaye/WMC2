@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="desrciption" content="Affordable home maintenance" />
+    <title>WM Contractors | Home</title>
+    <meta
+      name="keywords"
+      content="Painting & Decorating, Tiling, Bathroom Refurbishment, Fencing, Flooring, General Handyman, Specialist in Modular & Portable Buildings, Install/Dismantle & Maintenance, Buckinghamshire"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body class="ff-primary fw-regular bg-clr-primary">
+    <header>
+      <div class="container-menu">
+        <div class="menu-item-logo">
+          <img src="./img/logo.jpg" id="logo" alt="company logo" />
+        </div>
+
+        <nav class="menu-item-nav">
+          <ul class="container-nav fs-nav">
+            <li class="fw-semi-bold"><a href="index.html">Home</a></li>
+            <li class="fw-semi-bold current">
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li class="fw-semi-bold"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="showcase">
+        <h1 class="fw-bold fs-heading">Affordable home maintenance</h1>
+      </div>
+    </section>
+
+    <div class="full-img" id="fullImgBox">
+      <div class="pic-nav">
+        <div id="prev" class="arrow left"></div>
+        <img src="./img/gallery/1.jpg" id="fullImg" alt="pictures from work" />
+        <div id="next" class="arrow right"></div>
+      </div>
+      <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="middle fs-standard gallery" id="gallery"></div>
+
+    <footer>
+      <p id="footer">WM Contractors, Copyright &copy; 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script-footer.js"></script>
+  </body>
+</html>
